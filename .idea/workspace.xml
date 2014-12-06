@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c01285f-a03c-46e2-8da2-d60248214f26" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/spec_helper.rb" afterPath="$PROJECT_DIR$/spec/spec_helper.bk.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BMImapper.iml" afterPath="$PROJECT_DIR$/BMImapper.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/spec_helper.rb" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BMImapper.iws" />
@@ -83,8 +82,8 @@
       <file leaf-file-name="spec_helper.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.083102494" vertical-offset="0" max-vertical-offset="1050">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+            <state vertical-scroll-proportion="-2.1578948" vertical-offset="944" max-vertical-offset="1305">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -706,12 +705,12 @@
       <option name="number" value="Default" />
       <updated>1417893848777</updated>
       <workItem from="1417893857659" duration="2338000" />
-      <workItem from="1417897268782" duration="2197000" />
+      <workItem from="1417897268782" duration="2284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4535000" />
+    <option name="totallyTimeSpent" value="4622000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="640" y="22" width="640" height="774" extended-state="0" />
@@ -879,8 +878,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.083102494" vertical-offset="0" max-vertical-offset="1050">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        <state vertical-scroll-proportion="-2.1578948" vertical-offset="944" max-vertical-offset="1305">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding />
         </state>
       </provider>
