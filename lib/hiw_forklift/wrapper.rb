@@ -1,0 +1,3 @@
+class HiwForkliftWrapper
+
+end
