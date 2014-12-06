@@ -32,6 +32,7 @@
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.3.0, rbenv: 1.9.3-p327) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.8.0, rbenv: 1.9.3-p327) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="crack (v0.4.2, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.2.5, rbenv: 1.9.3-p327) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, rbenv: 1.9.3-p327) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.2.2, rbenv: 1.9.3-p327) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.3, rbenv: 1.9.3-p327) [gem]" level="application" />
@@ -51,6 +52,10 @@
     <orderEntry type="library" scope="PROVIDED" name="railties (v4.1.7, rbenv: 1.9.3-p327) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v10.4.2, rbenv: 1.9.3-p327) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rdoc (v4.1.2, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec (v2.99.0, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-core (v2.99.2, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-expectations (v2.99.2, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-mocks (v2.99.2, rbenv: 1.9.3-p327) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="safe_yaml (v1.0.4, rbenv: 1.9.3-p327) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.2.19, rbenv: 1.9.3-p327) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v4.0.5, rbenv: 1.9.3-p327) [gem]" level="application" />

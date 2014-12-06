@@ -26,22 +26,19 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
-
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
-
-# Use debugger
-# gem 'debugger', group: [:development, :test]
-
 gem 'httparty'
 
 group :test do
   gem 'webmock'
   gem 'vcr'
   gem 'turn'
+end
+
+group :test, :development do
+  # These are the target gems of this tutorial
+  gem 'rspec-rails', '~> 2.12'
+  gem 'sauce', '~> 3.1.1'
+  gem 'sauce-connect'
+  gem 'capybara', '~> 2.0.3'
+  gem 'parallel_tests'
 end
