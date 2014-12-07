@@ -10,17 +10,6 @@ describe HiwForklift::Wrapper do
     HiwForklift::Wrapper.base_uri.should == 'http://services.healthindicators.gov/v5/REST.svc'
   end
 
-
-  # from the tutorial at http://code.tutsplus.com/articles/writing-an-api-wrapper-in-ruby-with-tdd--net-23875
-  # needs to be modified
-  # it "must include httparty methods" do
-  #   Dish::Player.must_include HTTParty
-  # end
-  #
-  # it "must have the base url set to the Dribble API endpoint" do
-  #   Dish::Player.base_uri.must_equal 'http://api.dribbble.com'
-  # end
-
 end
 
 # from the tutorial at http://code.tutsplus.com/articles/writing-an-api-wrapper-in-ruby-with-tdd--net-23875
