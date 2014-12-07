@@ -1,13 +1,13 @@
 require 'spec_helper'
 
-describe HiwForkliftWrapper do
+describe HiwForklift::Wrapper do
 
   it "must work" do
     true.should == true
   end
 
   it "must include httparty methods" do
-    subject.must_include HTTParty
+    HiwForklift::Wrapper.base_uri.should == 'http://services.healthindicators.gov/v5/REST.svc'
   end
 
 
