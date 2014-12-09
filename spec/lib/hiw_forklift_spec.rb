@@ -13,19 +13,19 @@ describe HiwForklift::Wrapper do
 end
 
 # from the tutorial at http://code.tutsplus.com/articles/writing-an-api-wrapper-in-ruby-with-tdd--net-23875
-# describe "default instance attributes" do
-#
-#   let(:player) { Dish::<span class="skimlinks-unlinked">Player.new('simplebits</span>
-#
-#   it "must have an id attribute" do
-#     player.must_respond_to :username
-#   end
-#
-#   it "must have the right id" do
-#     player.username.must_equal 'simplebits'
-#   end
-#
-# end
+describe "default instance attributes" do
+
+   let(:indicator) { HiwForklift::Wrapper.new(keyword: 'BMI') }
+
+   it "must have an id attribute" do
+     expect(indicator.respond_to?(:id)).to be true
+   end
+
+   it "must have the right id" do
+     expect(indicator.id).to be 2
+   end
+
+end
 
 # from the tutorial at http://code.tutsplus.com/articles/writing-an-api-wrapper-in-ruby-with-tdd--net-23875
 # describe "caching" do
@@ -49,21 +49,21 @@ end
 
 
 # from the tutorial at http://code.tutsplus.com/articles/writing-an-api-wrapper-in-ruby-with-tdd--net-23875
-# describe "GET profile" do
-#
-#   let(:player) { Dish::<span class="skimlinks-unlinked">Player.new</span> }
-#
-#   before do
-#     VCR.insert_cassette 'player', :record => :new_episodes
-#   end
-#
-#   after do
-#     VCR.eject_cassette
-#   end
-#
-#   it "must have a profile method" do
-#     player.must_respond_to :profile
-#   end
+ describe "GET indicator" do
+
+   let(:indicator) { HiwForklift::Wrapper.new }
+
+   before do
+     VCR.insert_cassette 'wrapper', :record => :new_episodes
+   end
+
+   after do
+     VCR.eject_cassette
+   end
+
+   it "must have a profile method" do
+     player.must_respond_to :profile
+   end
 #
 #   it "must parse the api response from JSON to Hash" do
 #     player.profile.must_be_instance_of Hash
