@@ -51,7 +51,7 @@ end
 # from the tutorial at http://code.tutsplus.com/articles/writing-an-api-wrapper-in-ruby-with-tdd--net-23875
  describe "GET indicator" do
 
-   let(:indicator) { HiwForklift::Wrapper.new }
+   let(:query) { HiwForklift::Wrapper.new }
 
    before do
      VCR.insert_cassette 'wrapper', :record => :new_episodes
@@ -60,17 +60,21 @@ end
    after do
      VCR.eject_cassette
    end
-
-   it "must have a profile method" do
-     player.must_respond_to :profile
+   
+   it "records the fixture" do
+     HiwForklift::Wrapper.get('/Keywords/1')
    end
-#
-#   it "must parse the api response from JSON to Hash" do
-#     player.profile.must_be_instance_of Hash
-#   end
-#
-#   it "must perform the request and get the data" do
-#     player.profile["username"].must_equal 'simplebits'
-#   end
-#
-# end
+   
+   it "must have an indicator method" do
+     expect(query.respond_to?(:record)).to be true
+   end
+
+   it "must parse the api response from JSON to Hash" do
+     expect(query.record.instance_of?(Hash)).to be true
+   end
+
+   it "must perform the request and get the data" do
+     expect(query.record["Data"][0]["Name"]).to be '1,2,3,6,7,8-hexachlorodibenzo-p-dioxin'
+   end
+
+end
