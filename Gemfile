@@ -28,7 +28,7 @@ gem 'spring',        group: :development
 gem 'httparty'
 
 group :test do
-  gem 'webmock'
+  gem 'webmock', '>= 1.20.4'
   gem 'vcr'
 end
 
