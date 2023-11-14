@@ -37,6 +37,6 @@ group :test, :development do
   gem 'rspec-rails', '~> 2.12'
   # gem 'sauce', '~> 3.1.1'
   # gem 'sauce-connect'
-  gem 'capybara', '~> 2.0.3'
+  gem 'capybara', '~> 2.1.0'
   gem 'parallel_tests'
 end
